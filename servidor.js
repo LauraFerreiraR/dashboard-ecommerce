@@ -1,5 +1,5 @@
 // =====================================================================
-// MOOUI Dashboard — Servidor (Ponte para o Shopify)
+// Dashboard — Servidor (Ponte para o Shopify)
 // =====================================================================
 // O que este arquivo faz:
 //   1. Lê a chave do Shopify do arquivo .env (em segredo)
@@ -31,7 +31,7 @@ function carregarEnv() {
   } catch (e) {
     console.error('❌ Erro: arquivo .env não encontrado.');
     console.error('   Crie um arquivo .env nesta pasta com o conteúdo:');
-    console.error('   SHOPIFY_STORE=mooui-br');
+    console.error('   SHOPIFY_STORE=sua-loja');
     console.error('   SHOPIFY_TOKEN=shpat_xxxxxxxxxxx');
     process.exit(1);
   }
@@ -816,7 +816,7 @@ const servidor = http.createServer(async (req, res) => {
 
 servidor.listen(PORTA, () => {
   console.log(' =====================================');
-  console.log('          MOOUI Dashboard ');
+  console.log('          Dashboard Shopify');
   console.log(`    🌐 http://localhost:${PORTA}`);
   console.log('           Parar: Ctrl+C ');
   console.log(' =====================================');
