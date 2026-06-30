@@ -3,7 +3,7 @@
 // =====================================================================
 // O que este arquivo faz:
 //   1. Lê a chave do Shopify do arquivo .env (em segredo)
-//   2. Sobe um mini-servidor em http://localhost:8030
+//   2. Sobe um mini-servidor em http://localhost:0000
 //   3. Quando o dashboard pede dados, ele consulta o Shopify e devolve
 //   4. Serve também o arquivo dashboard.html
 //
