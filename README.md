@@ -1,4 +1,4 @@
-# Dashboard Shopify (versão local)
+# Dashboard Shopify
 
 Dashboard que se conecta ao Shopify em tempo real e mostra vendas do dia, jornada do cliente, recompra e mais. Roda no seu computador (localhost), sem custo e sem hospedagem online.
 
